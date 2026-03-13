@@ -1,575 +1,407 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ホスト紹介 ┃ MERRY GO ROUND 本店 (メリーゴーランド ホンテン) 大阪 ミナミ ┃ ホストクラブ紹介 ホスト求人 </title>		
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dホスト紹介 ┃ MERRY GO ROUND 本店 (メリーゴーランド ホンテン) 大阪 ミナミ ┃ ホストクラブ紹介 ホスト求人</title>
+    <link rel="icon" href="favicon.ico" id="favicon">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
 </head>
+
 <body>
-	<div id="allbg">
-		<div id="headheight">
-			<div id="header">
-				<div id="headerline">
-					<h1 id="starguys">ホスト紹介┃MERRY GO ROUND 本店（メリーゴーランド ホンテン）┃大阪 ミナミホストクラブ</h1>
-				</div>
-			</div>
-		</div>
-	<div id="wrapper">
-		<div id="head">
-			<div id="headstarguys"><a href=""><img src="" width="229" height="49" alt=""></a></div>
-			<div id="headsearch">
-				<form class="footsearchform" name="footsearchform" action="" method="get">
-					<label for="searchtype1" class="radio_checked">お店</label>
-					<input type="radio" id="searchtype1" name="searchtype" value="0" class="crirHidden" checked="">
-					<label for="searchtype2" class="radio_unchecked">ホスト</label>
-					<input type="radio" id="searchtype2" name="searchtype" value="1" class="crirHidden">
-					<label for="searchtype3" class="radio_unchecked">ブログ</label>
-					<input type="radio" id="searchtype3" name="searchtype" value="2" class="crirHidden">
-					<input type="text" name="hostshop" class="headhostshop" value="" title="お店の名前を入力してね♪" style="color: rgb(153, 153, 153);">
-					<input type="image" src="/images/search.gif" value="button" width="66" height="20" alt="探す" align="top" onmouseover="this.src='/images/searchro.gif'" onmouseout="this.src='/images/search.gif'">
-				</form>
-			</div>
-			<div id="headrecruit"><a href=""><img src="" width="285" height="55" alt=""></a></div>
-		</div>
+    <header>
 
-		<div id="menu">
-			<ul id="menulink">
-				<li><a href="" class="menu" id="mmenu1" onmouseover="mopen(1);" onmouseout="mclosetime();">TOP</a></li>
-				<li><a href="" class="menu" id="mmenu2" onmouseover="mopen(2);" onmouseout="mclosetime();">ホストを探す</a></li>
-				<li>
-					<a href="" class="menu" id="mmenu3" onmouseover="mopen(3);" onmouseout="mclosetime();">お店を探す</a>
-					<div class="submenu" id="menu3" onmouseover="mcancelclosetime()" onmouseout="mclosetime();" style="visibility: hidden;">
-						<a href="">店名</a>
-						<a href="">グループ名</a>
-					</div>
-				</li>
-				<li>
-					<a href="" class="menu" id="mmenu4" onmouseover="mopen(4);" onmouseout="mclosetime();">NEWS</a>
-					<div class="submenu" id="menu4" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">NEWS&amp;TOPICS</a>
-						<a href="">SHOP&nbsp;INFORMATION</a>
-					</div>
-				</li>
-				<li>
-					<a href="" class="menu" id="mmenu5" onmouseover="mopen(5);" onmouseout="mclosetime();">グラビア</a>
-					<div class="submenu" id="menu5" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">ホストグラビア</a>
-						<a href="">HOST MONSTAR</a>
-						<a href="">ポップアップグラビア</a>
-					</div>
-				</li>
-				<li>
-					<a href="" class="menu" id="mmenu6" onmouseover="mopen(6);" onmouseout="mclosetime();">取材</a>
-					<div class="submenu" id="menu6" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">店舗取材</a>
-						<a href="">ホストインタビュー</a>
-					</div>
-				</li><li>
-					<a href="" class="menu" id="mmenu7" onmouseover="mopen(7);" onmouseout="mclosetime();">特集</a>
-					<div class="submenu" id="menu7" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">2019 HALLOWEEN</a>
-						<a href="">ホスト特集</a>
-						<a href="">特別営業日</a>
-						<a href="">バラエティー</a>
-						<a href="">ハコ特集</a>
-						<a href="">ニュース</a>
-					</div>
-				</li>
-				<li><a href="" class="menu" id="mmenu8" onmouseover="mopen(8);" onmouseout="mclosetime();">ブログ</a></li>
-				<li>
-					<a href="" class="menu" id="mmenu9" onmouseover="mopen(9);" onmouseout="mclosetime();">ホスエール</a>
-					<div class="submenu" id="menu9" onmouseover="mcancelclosetime()" onmouseout="mclosetime();" style="visibility: hidden;">
-						<a href="">ホスエール一覧</a>
-						<a href="">いいねランキング</a>
-						<a href="">過去イベントランキング</a>
-					</div>
-				</li>
-				<li>
-					<a href="" class="menu" id="mmenu10" onmouseover="mopen(10);" onmouseout="mclosetime();">ランキング</a>
-					<div class="submenu" id="menu10" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">ホストアクセスランキング</a>
-						<a href="">ショップアクセスランキング</a>
-					</div>
-				</li>
-				<li><a href="" class="menu" id="mmenu11" onmouseover="mopen(11);" onmouseout="mclosetime();">スケジュール</a></li>
-				<li>
-					<a href="" class="menu" id="mmenu12" onmouseover="mopen(12);" onmouseout="mclosetime();">動画</a>
-					<div class="submenu" id="menu12" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">ホストPR</a>
-						<a href="">ショップ</a>
-						<a href="">HOST MONSTAR.MOV</a>
-						<a href="">求人</a>
-						<a href="">YouTube</a>
-					</div>
-				</li>
-				<li>
-					<a href="" class="menu" id="mmenu13" onmouseover="mopen(13);" onmouseout="mclosetime();">ダウンロード</a>
-					<div class="submenu" id="menu13" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">ホスト時計</a>
-						<a href="">ホスト壁紙</a>
-					</div>
-				</li>
-				<li>
-					<a href="" class="menu" id="mmenu14" onmouseover="mopen(14);" onmouseout="mclosetime();">割引クーポン</a>
-					<div class="submenu" id="menu14" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">割引クーポン</a>
-						<a href="">期間限定クーポン</a>
-					</div>
-				</li>
-				<li><a href="" class="menu" id="mmenu15" onmouseover="mopen(15);" onmouseout="mclosetime();">プレゼント</a></li>
-				<li>
-					<a href="" class="menu" id="mmenu16" onmouseover="mopen(16);" onmouseout="mclosetime();">求人</a>
-					<div class="submenu" id="menu16" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-						<a href="">求人検索</a>
-						<a href="">スペシャル求人</a>
-					</div>
-				</li>
-			</ul>
-		</div>
+    </header>
+    <main>
+        <div id="leftblock" class="nonsg" style="min-height: 2297px;">
+            <img src="./images/nonsg.jpg" alt="">
+            <ul id="shopmenu">
+                <li>
+                    <a href="">店舗情報</a>
+                </li>
+                <li>
+                    <a href="">スタッフ</a>
+                </li>
+                <li>
+                    <a href="">グラビア&特集</a>
+                </li>
+                <li>
+                    <a href="">店舗ニュース</a>
+                </li>
+                <li>
+                    <a href="">ブログ</a>
+                </li>
+                <li>
+                    <a href="">動画</a>
+                </li>
+                <li>
+                    <a href="">割引クーポン</a>
+                </li>
+                <li>
+                    <a href="">ホスト求人</a>
+                </li>
+            </ul>
+            <h2 id="shoplogo">
+                <img src="./images/shoplogo.jpg" height="35" width="65.625"
+                    alt="大阪 ミナミ ホストクラブ MERRY GO ROUND 本店 メリーゴーランド ホンテン">
+            </h2>
+            <div id="shopname">
+                <span class="merry">MERRY</span>
+                <span class="go">GO</span>
+                <span class="round">ROUND</span>
+                <span class="honten">本店</span>
+            </div>
+            <div id="shopkana">メリーゴーランド ホンテン</div>
+            <div id="shopstaff">
+                <h2 class="pagetitle">
+                    <!-- ::before -->
+                    ホスト
+                </h2>
+                <!-- 画像を横並びにする -->
+                <nav>
+                    <ul>
+                        <!-- 奈槻 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/natsuki.html" title="奈槻の詳細へ">
+                                <img src="./images/natsuki.jpg" width="100" alt="奈槻">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/natsuki.html" title="奈槻の詳細へ">奈槻</a>
+                        </li>
+                        <!-- 御子柴 大也 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/daiya.html" title="御子柴 大也の詳細へ">
+                                <img src="./images/daiya.jpg" width="100" alt="御子柴 大也">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/daiya.html" title="御子柴 大也の詳細へ">御子柴 大也</a>
+                        </li>
+                        <!-- シオン -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/shion.html" title="シオンの詳細へ">
+                                <img src="./images/shion.jpg" alt="シオン">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/shion.html" title="シオンの詳細へ">シオン</a>
+                        </li>
+                        <!-- 涼真 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/ryoma.html" title="涼真の詳細へ">
+                                <img src="./images/ryoma.jpg" alt="涼真">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/ryoma.html" title="涼真の詳細へ">涼真</a>
+                        </li>
+                        <!-- 御子柴 綾斗 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/ayato.html" title="御子柴 綾斗の詳細へ">
+                                <img src="./images/ayato.jpg" alt="御子柴 綾斗">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/ayato.html" title="御子柴 綾斗の詳細へ">御子柴 綾斗</a>
+                        </li>
+                        <!-- 流川 月煌 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/raito.html" title="流川 月煌の詳細へ">
+                                <img src="./images/raito.jpg" alt="流川 月煌">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/raito.html" title="流川 月煌の詳細へ">流川 月煌</a>
+                        </li>
+                        <!-- 月 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/runa.html" title="月の詳細へ">
+                                <img src="./images/runa.jpg" alt="月">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/runa.html" title="月の詳細へ">月</a>
+                        </li>
+                        <!-- 夢海 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/mukai.html" title="夢海の詳細へ">
+                                <img src="./images/mukai.jpg" alt="夢海">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/mukai.html" title="夢海の詳細へ">夢海</a>
+                        </li>
+                        <!-- 神代 エイト -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/eito.html" title="神代 エイトの詳細へ">
+                                <img src="./images/eito.jpg" alt="神代 エイト">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/eito.html" title="神代 エイトの詳細へ">神代 エイト</a>
+                        </li>
+                        <!-- 虎 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/taiga.html" title="虎の詳細へ">
+                                <img src="./images/taiga.jpg" alt="虎">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/taiga.html" title="虎の詳細へ">虎</a>
+                        </li>
+                        <!-- 霜月 伊織 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/iori.html" title="霜月 伊織の詳細へ">
+                                <img src="./images/iori.jpg" alt="霜月 伊織">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/iori.html" title="霜月 伊織の詳細へ">霜月 伊織</a>
+                        </li>
+                        <!-- 結月 蓮 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/ren.html" title="結月 蓮の詳細へ">
+                                <img src="./images/ren.jpg" alt="結月 蓮">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/ren.html" title="結月 蓮の詳細へ">結月 蓮</a>
+                        </li>
+                        <!-- 星凪 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/sena.html" title="星凪の詳細へ">
+                                <img src="./images/sena.jpg" alt="星凪">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/sena.html" title="星凪の詳細へ">星凪</a>
+                        </li>
+                        <!-- 神楽 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/kagura.html" title="神楽の詳細へ">
+                                <img src="./images/kagura.jpg" alt="神楽">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/kagura.html" title="神楽の詳細へ">神楽</a>
+                        </li>
+                        <!-- 御子柴 竜也 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/tatsuya.html" title="御子柴 竜也の詳細へ">
+                                <img src="./images/tatsuya.jpg" width="100" alt="御子柴 竜也">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/tatsuya.html" title="御子柴 竜也の詳細へ">御子柴 竜也</a>
+                        </li>
+                        <!-- 千冬 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/chifuyu.html" title="千冬の詳細へ">
+                                <img src="./images/chifuyu.jpg" alt="千冬">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/chifuyu.html" title="千冬の詳細へ">千冬</a>
+                        </li>
+                        <!-- 結人 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/yuito.html" title="結人の詳細へ">
+                                <img src="./images/yuito.jpg" alt="結人">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/yuito.html" title="結人の詳細へ">結人</a>
+                        </li>
+                        <!-- 匠 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/takumi.html" title="匠の詳細へ">
+                                <img src="./images/takumi.jpg" alt="匠">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/takumi.html" title="匠の詳細へ">匠</a>
+                        </li>
+                        <!-- 柊 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/shu.html" title="柊の詳細へ">
+                                <img src="./images/shu.jpg" alt="柊">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/shu.html" title="柊の詳細へ">柊</a>
+                        </li>
+                        <!-- 夜神 優磨 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/yuma.html" title="夜神 優磨の詳細へ">
+                                <img src="./images/yuma.jpg" alt="夜神 優磨">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/yuma.html" title="夜神 優磨の詳細へ">夜神 優磨</a>
+                        </li>
+                        <!-- 橘 潤 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/jun.html" title="橘 潤の詳細へ">
+                                <img src="./images/jun02.jpg" alt="橘 潤">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/jun.html" title="橘 潤の詳細へ">橘 潤</a>
+                        </li>
+                        <!-- 流華 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/ruka.html" title="流華の詳細へ">
+                                <img src="./images/ruka.jpg" alt="流華">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/ruka.html" title="流華の詳細へ">流華</a>
+                        </li>
+                        <!-- 寝夢 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/nemu.html" title="寝夢の詳細へ">
+                                <img src="./images/nemu.jpg" alt="寝夢">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/nemu.html" title="寝夢の詳細へ">寝夢</a>
+                        </li>
+                        <!-- 来夢 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/raimu.html" title="来夢の詳細へ">
+                                <img src="./images/raimu.jpg" alt="来夢">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/raimu.html" title="来夢の詳細へ">来夢</a>
+                        </li>
+                        <!-- 秋弥 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/akiya.html" title="秋弥の詳細へ">
+                                <img src="./images/akiya.jpg" alt="秋弥">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/akiya.html" title="秋弥の詳細へ">秋弥</a>
+                        </li>
+                        <!-- 渋谷 凪咲 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/nagisa.html" title="渋谷 凪咲の詳細へ">
+                                <img src="./images/nagisa.jpg" alt="渋谷 凪咲">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/nagisa.html" title="渋谷 凪咲の詳細へ">渋谷 凪咲</a>
+                        </li>
+                        <!-- 間宮 千昭 -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="./merigo_staff/chiaki.html" title="間宮 千昭の詳細へ">
+                                <img src="./images/chiaki.jpg" alt="間宮 千昭">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="./merigo_staff/chiaki.html" title="間宮 千昭の詳細へ">間宮 千昭</a>
+                        </li>
+                        <!-- 朔夜  -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="" title="の詳細へ">
+                                <img src="./images/no_image.png" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="" title="の詳細へ">朔夜</a>
+                        </li>
+                        <!-- ミナト -->
+                        <li class="shopstaffframe averagebox" style="min-height: 198px;">
+                            <a href="" title="の詳細へ">
+                                <img src="./images/no_image.png" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="" title="の詳細へ">ミナト</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h2 class="pagetitle">
+                    <!-- ::before -->
+                    スタッフ
+                </h2>
+                <nav>
+                    <ul>
+                        <!-- 拓哉 -->
+                        <li>
+                            <a href="">
+                                <img src="./images/takuya.jpg" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">拓哉</a>
+                        </li>
+                        <!-- コッシー -->
+                        <li>
+                            <a href="">
+                                <img src="./images/no_image.png" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">コッシー</a>
+                        </li>
+                        <!-- 獅子丸 -->
+                        <li>
+                            <a href="">
+                                <img src="./images/no_image.png" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">獅子丸</a>
+                        </li>
+                        <!-- アンリ -->
+                        <li>
+                            <a href="">
+                                <img src="./images/anri_30.jpg" alt="">
+                            </a>
+                            <div class="stafftime">IT部門</div>
+                            <a href="">アンリ</a>
+                        </li>
+                        <!-- Yoshi -->
+                        <li>
+                            <a href="">
+                                <img src="./images/no_image.png" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">Yoshi</a>
+                        </li>
+                        <!-- 平田 慎伍 -->
+                        <li>
+                            <a href="">
+                                <img src="./images/shin.jpg" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">平田 慎伍</a>
+                        </li>
+                        <!-- yu -->
+                        <li>
+                            <a href="">
+                                <img src="./images/yu.jpeg" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">yu </a>
+                        </li>
+                        <!-- 暁 光路 -->
+                        <li>
+                            <a href="">
+                                <img src="./images/koji.jpg" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">暁 光路</a>
+                        </li>
+                        <!-- 藤沢 隼斗 -->
+                        <li>
+                            <a href="">
+                                <img src="./images/hayato.jpg" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">藤沢 隼斗</a>
+                        </li>
+                        <!-- 桜花 凛太朗 -->
+                        <li>
+                            <a href="">
+                                <img src="./images/rintaro.jpeg" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">桜花 凛太朗</a>
+                        </li>
+                        <!-- 萬田 毬王 -->
+                        <li>
+                            <a href="">
+                                <img src="./images/mario.jpg" alt="">
+                            </a>
+                            <div class="stafftime">1部</div>
+                            <a href="">萬田 毬王</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer>
 
-<nav id="breadcrumb_navi" class="bgset">
-	<ol class="breadcrumb">
-		<li>
-			<a href="">
-				<span>トップ</span>
-			</a>
-		</li>
-		<li>
-			<a href="">
-				<span>関西</span>
-			</a>
-		</li>
-		<li>
-			<a href="">
-				<span>大阪府/大阪 ミナミ</span>
-			</a>
-		</li>
-		<li>
-			<a href="">
-				<span>MERRY GO ROUND 本店（メリーゴーランド ホンテン）</span>
-			</a>
-		</li>
-		<li class="breadcrumb_navi_item">
-			<span>ホスト</span>
-		</li>
-	</ol>
-</nav>
-
-
-		<div id="main">
-
-			<div id="leftblock" class="guysbox" style="min-height: 2290px;">
-				<img src="./images/nonsg.jpg" class="" data-src="" width="750" height="450" alt="大阪 ミナミ MERRY GO ROUND 本店 メリーゴーランド ホンテン">
-
-				<ul id="shopmenu">
-					<li class="shopmenuli"><a href="">店舗情報</a></li>
-					<li class="shopmenulargero"><a href="">スタッフ</a></li>
-					<li class="shopmenuli"><a href="">グラビア&amp;特集</a></li>
-					<li class="shopmenuli"><a href="">店舗ニュース</a></li>
-					<li class="shopmenuli"><a href="">ブログ</a></li>
-					<li class="shopmenuli"><a href="">動画</a></li>
-					<li class="shopmenuli"><a href="">割引クーポン</a></li>
-					<li class="shopmenulast"><a href="">ホスト求人</a></li>
-				</ul>
-
-				<h2 id="shoplogo"><img src="" class="" data-src="" height="35" width="65.625" alt="大阪 ミナミ ホストクラブ MERRY GO ROUND 本店 メリーゴーランド ホンテン"></h2>
-				<div id="shopname">MERRY GO ROUND 本店</div>
-				<div id="shopkana">メリーゴーランド ホンテン</div>
-				<div id="shopstaff">
-					<h2 class="page-title">ホスト</h2>
-					<div class="shopstaffline">
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="./merigo_staff/natsuki.html" title="ホスト 奈槻の詳細へ"><img src="./images/natsuki.jpg" width="100" alt="MERRY GO ROUND 本店 奈槻"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="./merigo_staff/natsuki.html" title="ホスト 奈槻の詳細へ">奈槻</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="./merigo_staff/daiya.html" title="ホスト 御子柴 大也の詳細へ"><img src="./images/daiya.jpg" width="100" alt="MERRY GO ROUND 本店 奈槻"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="./merigo_staff/daiya.html" title="ホスト 御子柴 大也の詳細へ">御子柴 大也</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 御子柴 竜也の詳細へ"><img src="./images/tatsuya.jpg" width="100" alt="MERRY GO ROUND 本店 竜也"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 御子柴 竜也の詳細へ">御子柴 竜也</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト シオンの詳細へ"><img src="./images/shion.jpg" width="100" alt="しおん MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト シオンの詳細へ">シオン</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 神代 エイトの詳細へ"><img src="./images/eito.jpg" width="100" alt="神代 エイト MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 神代 エイトの詳細へ">神代 エイト</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="./merigo_staff/ayato.html" title="ホスト 御子柴 綾斗の詳細へ"><img src="./images/ayato.jpg" width="100" alt="御子柴 綾斗 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="./merigo_staff/ayato.html" title="ホスト 御子柴 綾斗の詳細へ">御子柴 綾斗</a>
-						</div>
-					</div>
-					<div class="shopstaffline">
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 月の詳細へ"><img src="./images/runa.jpg" width="100" alt="MERRY GO ROUND 本店 月"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 月の詳細へ">月</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 橘 潤の詳細へ"><img src="./images/jun.jpg" width="100" alt="橘 潤 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 橘 潤の詳細へ">橘 潤</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 流川 月煌の詳細へ"><img src="./images/raito.jpg" width="100" alt="流川 月煌 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 流川 月煌の詳細へ">流川 月煌</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 夢海の詳細へ"><img src="./images/mukai.jpg" width="100" alt="夢海 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 夢海の詳細へ">夢海</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 霜月 伊織の詳細へ"><img src="./images/iori.jpg" width="100" alt="霜月 伊織 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 霜月 伊織の詳細へ">霜月 伊織</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 涼真の詳細へ"><img src="./images/ryoma.jpg" width="100" alt="涼真 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 涼真の詳細へ">涼真</a>
-						</div>
-					</div>
-					<div class="shopstaffline">
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 星凪の詳細へ"><img src="./images/sena.jpg" width="100" alt="星凪 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 星凪の詳細へ">星凪</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 結月 蓮の詳細へ"><img src="./images/ren.jpg" width="100" alt="MERRY GO ROUND 本店 結月 蓮"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 結月 蓮の詳細へ">結月 蓮</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 神楽の詳細へ"><img src="./images/kagura.jpg" width="100" alt="神楽 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 神楽の詳細へ">神楽</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 虎の詳細へ"><img src="./images/taiga.jpg" width="100" alt="虎 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 虎の詳細へ">虎</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 柊の詳細へ"><img src="./images/shu.jpg" width="100" alt="柊 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 柊の詳細へ">柊</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 匠の詳細へ"><img src="./images/takumi.jpg" width="100" alt="MERRY GO ROUND 本店 匠"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 匠の詳細へ">匠</a>
-						</div>
-					</div>
-					<div class="shopstaffline">
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 夜神 優磨の詳細へ"><img src="./images/yuma.jpg" width="100" alt="夜神 優磨 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 夜神 優磨の詳細へ">夜神 優磨</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 来夢の詳細へ"><img src="./images/raimu.jpg" width="100" alt="らいむ MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 来夢の詳細へ">来夢</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 秋弥の詳細へ"><img src="./images/akiya.jpg" width="100" alt="秋弥 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 秋弥の詳細へ">秋弥</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 結人の詳細へ"><img src="./images/yuito.jpg" width="100" alt="結人 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 結人の詳細へ">結人</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 間宮 千昭の詳細へ"><img src="./images/chiaki.jpg" width="100" alt="間宮 千昭 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 間宮 千昭の詳細へ">間宮 千昭</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 渋谷 凪咲の詳細へ"><img src="./images/nagisa.jpg" width="100" alt="渋谷 凪咲 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 渋谷 凪咲の詳細へ">渋谷 凪咲</a>
-						</div>
-					</div>
-					<div class="shopstaffline">
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 流華の詳細へ"><img src="./images/ruka.jpg" width="100" alt="流華 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 流華の詳細へ">流華</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 寝夢の詳細へ"><img src="./images/nemu.jpg" width="100" alt="寝夢 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 寝夢の詳細へ">寝夢</a>
-							<img src="/shop/up.gif" alt="up" title="up" width="20" height="19">
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 千冬の詳細へ"><img src="./images/chifuyu.jpg" width="100" alt="千冬 MERRY GO ROUND 本店 大阪 ミナミ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 千冬の詳細へ">千冬</a>
-							<img src="/shop/up.gif" alt="up" title="up" width="20" height="19">
-						</div>
-					</div>
-					<h2 class="page-title">スタッフ</h2>
-					<div class="shopstaffline">
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 拓哉の詳細へ"><img src="./images/takuya.jpg" width="100" alt="MERRY GO ROUND 本店 拓哉"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 拓哉の詳細へ">拓哉</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト コッシーの詳細へ"><img src="" width="100" alt="コッシー"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト コッシーの詳細へ">コッシー</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 獅子丸の詳細へ"><img src="" width="100" alt="獅子丸"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 獅子丸の詳細へ">獅子丸</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト アンリの詳細へ"><img src="" width="100" alt="アンリ"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">IT部門</div>							<a href="" title="ホスト アンリの詳細へ">アンリ</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト Yoshiの詳細へ"><img src="" width="100" alt="Yoshi"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト Yoshiの詳細へ">Yoshi</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 平田 慎伍の詳細へ"><img src="./images/shin.jpg" width="100" alt="MERRY GO ROUND 京"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 平田 慎伍の詳細へ">平田 慎伍</a>
-						</div>
-					</div>
-					<div class="shopstaffline">
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト yuの詳細へ"><img src="./images/yu.jpeg" width="100" alt="MERRY GO ROUND 本店 yu"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト yuの詳細へ">yu</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 暁 光路の詳細へ"><img src="./images/koji.jpg" width="100" alt="愛 暁 光路"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 暁 光路の詳細へ">暁 光路</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 藤沢 隼斗の詳細へ"><img src="./images/hayato.jpg" width="100" alt="MERRY GO ROUND 藤沢 隼斗"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 藤沢 隼斗の詳細へ">藤沢 隼斗</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 桜花 凛太朗の詳細へ"><img src="./images/rintaro.jpeg" width="100" alt="MERRY GO ROUND 本店 桜花 凛太朗"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 桜花 凛太朗の詳細へ">桜花 凛太朗</a>
-						</div>
-						<div class="shopstaffframe averagebox" style="min-height: 197px;">
-							<a href="" title="ホスト 萬田 毬王の詳細へ"><img src="./images/mario.jpg" width="100" alt="MERRY GO ROUND 萬田 毬王"></a>
-							<div class="staffapp"></div>
-							<div class="staffcomment"></div>
-							<div class="stafftime">1部</div>							<a href="" title="ホスト 萬田 毬王の詳細へ">萬田 毬王</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="rightblock" class="guysbox" style="min-height: 2290px;">
-				<div class="srline">
-					<div id="shopteltitle">TEL</div>
-					<div id="shoptel">06-6484-7344</div>
-				</div>
-				<div class="srline">
-					<div id="shopholititle">定休日</div>
-					<div id="shopholiday">毎週木曜日,金曜日</div>
-				</div>
-				<div class="srblock">
-					<div class="srtitle">GROUP</div>
-					<div id="rtgroup">
-						<a href=""><div id="rtgroupname">トリプルエイト</div></a>
-						<div class="rtgshop"><span class="rtgarrow">&gt;</span>&nbsp;<a href="">
-						<span class="groupon">MERRY GO ROUND 本店</span></a>
-						</div>
-												<div class="rtgshop"><span class="rtgarrow">&gt;</span>&nbsp;<a href="">
-						<span class="groupoff">FREAK prod. by MERRY GO ROUND</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="srblock sr_recruit_block">
-					<div id="sr_recruit_link_banner">
-						<a href="">
-							<div id="sr_recruit_shopname">MERRY GO ROUND 本店</div>
-							<div id="sr_recruit_text">ホスト求人はコチラ</div>
-						</a>
-					</div>
-				</div>
-				<div class="srblock">
-					<div class="srtitle">SNS</div>
-					<div id="rtsns">
-						<ul>
-							<li>
-								<a href="" ontouchstart="gtag('event', 'shop', {'event_category': 'line','event_label': 'ホスト紹介 ┃ MERRY GO ROUND 本店 (メリーゴーランド ホンテン) 大阪 ミナミ ┃ ホストクラブ紹介 ホスト求人','value': '5'});">
-									<img src="" width="93" height="93" alt="LINEで送る" class="snsicon">
-								</a>
-							</li>
-							<li>
-								<a href="" target="_blank">
-									<img src="" width="93" height="93" alt="Facebookに投稿" class="snsicon">
-								</a>
-							</li>
-							<li>
-								<a href="" target="_blank">
-									<img src="" width="93" height="93" alt="Xに投稿" class="snsicon">
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="srblock">
-					<div class="srtitle">NEW&nbsp;MEMBER</div>
-					<div id="rtnewmember">
-						<a href="merigorandohonten/staff/ruka.html"><img src="" class="" data-src="" width="60" height="90" alt="流華"></a>
-						<a href="merigorandohonten/staff/taiga2.html"><img src="" class="" data-src="" width="60" height="90" alt="虎"></a>
-						<a href="merigorandohonten/staff/mukai.html"><img src="" class="" data-src="" width="60" height="90" alt="夢海"></a>
-					</div>
-				</div>
-				<div class="srblock">
-					<div class="srtitle">NEWS&amp;TOPICS</div>
-					<div id="rtwhatsnew">
-						<div class="rtday">2026-02-16</div>
-						<div class="rttext">期待の新人「寝夢」「千冬」のプロフ画像を掲載しました♪ 今すぐチェックしてみて下さい‼︎</div>
-						<div class="rtday">2026-01-29</div>
-						<div class="rttext">「柊」「流華」「九條 雅宗」以上3名のNEWプロフ画像を掲載しました♪ タイプの異なるイケメン3人です!</div>
-					</div>
-				</div>
-				<div id="shopmobile">
-					<div id="srmqr"><img src="" width="90" height="90" alt="1825_merigorandohonten_shop Mobile"></div>
-					<div id="srmname">MERRY GO ROUND 本店<br>のモバイルサイトへ</div>
-				</div>
-			</div>
-		</div>
-		<div id="pagetop" style="display: none; opacity: 0;"><a href="#" style="display: none; opacity: 0;"></a></div>
-	</div>
-		<div id="footer">
-			<div id="footline">
-				<div id="footleft">
-					<div id="footsearch">
-						<form class="footsearchform" name="footsearchform" action="https://www.star-guys.jp/topsearch.html" method="get">
-							<label for="footsearch1" class="radio_checked">お店</label>
-							<input type="radio" id="footsearch1" name="fsearchtype" value="0" class="crirHidden" checked="">
-							<label for="footsearch2" class="radio_unchecked">ホスト</label>
-							<input type="radio" id="footsearch2" name="fsearchtype" value="1" class="crirHidden">
-							<label for="footsearch3" class="radio_unchecked">ブログ</label>
-							<input type="radio" id="footsearch3" name="fsearchtype" value="2" class="crirHidden">
-							<input type="text" name="hostshop" class="foothostshop" value="" title="お店の名前を入力してね♪" style="color: rgb(153, 153, 153);">
-							<input type="image" src="/images/search.gif" value="button" width="66" height="20" alt="探す" align="top" onmouseover="this.src='/images/searchro.gif'" onmouseout="this.src='/images/search.gif'">
-						</form>
-					</div>
-					<ul class="sitemap">
-						<li><a href="">TOP</a></li>
-						<li><a href="">ホストを探す</a></li>
-						<li><a href="">お店を探す(店名)</a></li>
-						<li><a href="">お店を探す(グループ)</a></li>
-						<li><a href="">SHOP&nbsp;INFORMATION</a></li>
-						<li><a href="">NEWS&amp;TOPICS</a></li>
-					</ul>
-					<ul class="sitemap">
-						<li><a href="">ホストグラビア</a></li>
-						<li><a href="">HOST MONSTAR</a></li>
-						<li><a href="">ポップアップグラビア</a></li>
-						<li><a href="">店舗取材</a></li>
-						<li><a href="">インタビュー</a></li>
-						<li><a href="">ホスト特集</a></li>
-						<li><a href="">特別営業日</a></li>
-						<li><a href="">バラエティー</a></li>
-						<li><a href="">ハコ特集</a></li>
-						<li><a href="">ニュース</a></li>
-					</ul>
-					<ul class="sitemap">
-						<li><a href="">ホストブログ</a></li>
-						<li><a href="">ホスエール</a></li>
-						<li><a href="">ホストランキング</a></li>
-						<li><a href="">ショップランキング</a></li>
-						<li><a href="">スケジュール</a></li>
-						<li><a href="">動画</a></li>
-					</ul>
-					<ul class="sitemap">
-						<li><a href="">ホスト時計</a></li>
-						<li><a href="">ホスト壁紙</a></li>
-						<li><a href="">割引クーポン</a></li>
-						<li><a href="">期間限定クーポン</a></li>
-						<li><a href="">プレゼント</a></li>
-						<li><a href="">ホスト求人・取材</a></li>
-					</ul>
-				</div>
-				<div id="footright">
-					<ul id="linklist">
-						<li><a href="">利用規約</a>|</li>
-						<li><a href="">運営</a>|</li>
-						<li><a href="">広告掲載について</a>|</li>
-						<li><a href="">お問い合わせ</a></li>
-					</ul>
-					<div id="prohibition">画像等の無断転載を固く禁じます。</div>
-					<div id="copyright">
-						<img src="" width="229" height="49" alt=""><br>
-						Copyright(C)
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
