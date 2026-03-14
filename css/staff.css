@@ -67,11 +67,12 @@ main .pagetitle:hover {
 main ul {
     color: black;
     display: flex;
-    /* align-items: center; */
+    
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
+
 main ul li {
   width: 16%;  /* ６列 */
   /* width: 20%; */  /* ５列 */
@@ -96,8 +97,12 @@ main ul li .stafftime {
     color: red;
 }
 main #hosttext table #hostdetail {
-    /* color: black; */
+    /* margin-left: 50px; */
     margin-left: auto;
+    /* text-align: center; */
+}
+main #hosttext table tr {
+    color: darkcyan;
 }
 /* main ul li img:hover {
   transform: scale(1.2, 1.2);
