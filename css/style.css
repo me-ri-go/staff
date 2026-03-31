@@ -57,7 +57,7 @@ main .pagetitle {
 main .pagetitle:hover {
     color: gold;
     background-color: black;
-    
+
 
 }
 
@@ -67,34 +67,42 @@ main .pagetitle:hover {
 main ul {
     color: red;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
+
 main ul li {
-  width: 16%;  /* ６列 */
-  /* width: 20%; */  /* ５列 */
-  margin-bottom: 23px;
+    width: 16%;
+    /* ６列 */
+    /* width: 20%; */
+    /* ５列 */
+    margin-bottom: 23px;
 }
 
 /* frameをつける */
 main ul li .shopstaffframe {
     min-height: 198px;
-}
-main ul li img {
-  cursor: pointer;
-  /* width: 640px; */
-  width: 100%;
-  /* max-height: 417px; */
-  min-height: 198px;
-  /* height: 100%; */
-  transition: all 0.3s;
+
 }
 
-/* main ul li img:hover {
-  transform: scale(1.2, 1.2);
-  opacity: 0.7;
-} */
+main ul li img {
+    border:20px double;
+    /* margin: 5px 20px; */
+    cursor: pointer;
+    /* width: 640px; */
+    width: 100%;
+    /* max-height: 417px; */
+    min-height: 198px;
+    /* height: 100%; */
+    transition: all 0.3s;
+}
+
+main ul li img:hover {
+    color: red;
+    /* transform: scale(1.2, 1.2); */
+    /* opacity: 0.7; */
+}
 
 /* main mobile */
 
