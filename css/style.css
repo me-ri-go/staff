@@ -8,6 +8,10 @@ body {
 /* header mobile */
 
 /* main */
+main .imp {
+    width: 2000px;
+    height: 1400px;
+}
 main #shopmenu {
     display: flex;
     justify-content: space-between;
