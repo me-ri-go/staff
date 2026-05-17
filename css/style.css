@@ -109,7 +109,12 @@ main ul li img:hover {
 }
 
 /* main mobile */
-
+@media (max-width: 600px) {
+    main .imp {
+    width: 200px;
+    height: 140px;
+}
+}
 /* footer */
 
 /* footer mobile */
