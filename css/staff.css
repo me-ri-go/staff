@@ -132,12 +132,22 @@ main #hosttext table tr {
         margin-bottom: 20px;
     }
 
+    main ul {
+        margin-left: 20px;
+    }
+
     main ul li {
         width: 100%;
         /* ６列 */
         /* width: 20%; */
         /* ５列 */
         /* margin-bottom: 23px; */
+    }
+
+    main h2 .shoplogo {
+        margin-left: 180px;
+        height: 100px;
+        width: 240px;
     }
 
     main ul li img {
@@ -156,6 +166,22 @@ main #hosttext table tr {
         /* min-height: 100px; */
         /* height: 100vh; */
         transition: all 0.3s;
+    }
+
+    h3 {
+        margin-left: 20px;
+    }
+
+    h3 strong {
+        color: red;
+    }
+
+    div #hosttext {
+        margin-left: 20px;
+    }
+
+    div tbody {
+        text-align: left;
     }
 }
 
