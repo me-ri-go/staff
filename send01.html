@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>パスワード認証ページ</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .form-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 8px;
+        }
+
+        input[type="password"] {
+            padding: 8px;
+            font-size: 16px;
+            width: 200px;
+        }
+
+        button {
+            padding: 9px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-box">
+        <h3>リンク先の閲覧にはパスワードが必要です</h3>
+        <input type="password" id="passwordInput" placeholder="パスワードを入力">
+        <button onclick="checkPassword()">移動する</button>
+        <p id="errorMsg" style="color: red; display: none;">パスワードが間違っています。</p>
+    </div>
+
+    <script>
+        // 設定したい暗証番号（文字列）
+        const correctPassword = "6900";
+        // 認証後に移動したいURL
+        const targetUrl = "./fl.html";
+
+        function checkPassword() {
+            const input = document.getElementById("passwordInput").value;
+
+            if (input === correctPassword) {
+                // パスワードが一致した場合、指定URLへジャンプ
+                window.location.href = targetUrl;
+            } else {
+                // 間違っていた場合、エラーメッセージを表示
+                document.getElementById("errorMsg").style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
